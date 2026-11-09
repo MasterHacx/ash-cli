@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets (never commit real keys)
+.env
+config.json
+aisha_custom_settings.json
+
+# User data / runtime artifacts
+aisha_chat_history*.json
+aisha_memory*.json
+aisha_custom_settings.json
+testing/
+*.log
+
+# Keep templates
+# config.example.json is committed on purpose
